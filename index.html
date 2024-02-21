@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,29 @@
 </head>
 
 <body>
-    <h1 class="text-[25rem]">Hello World!</h1>
+    <section class="min-h-screen bg-[#1E1E1E] bg-[url('./Images/Hompage-background.jpg')] h-screen bg-no-repeat bg-center flex flex-col justify-normal items-center text-white">
+        <div class="w-[640px] h-screen bg-black bg-opacity-30 flex flex-col justify-normal items-center pt-24 gap-8 text-white">
+            <h1 class="text-5xl font-extrabold roboto-slab">Play Ludo</h1>
+            <p class="text-3xl font-medium roboto-slab">Make Your Goal Successful</p>
+
+            <button id="start-btn" class="btn hover:bg-yellow-400 hover:text-red-500 text-base text-white font-semibold roboto-slab mt-48 bg-blue-700 border-2 border-yellow-400">
+                Start Play
+            </button>
+        </div>
+    </section>
+
+    <section class="play-bg">
+        <div class="bg-[url('./Images/Play-game-image.jpg')] bg-contain bg-no-repeat bg-center">
+
+            <div class="h-screen w-[80%] mx-auto flex justify-between items-center">
+                <img class="w-40 h-40" src="./Images/white box.png" alt="">
+                
+                
+                
+                <button class="btn bg-green-500 border-2 border-white text-white text-lg font-medium hover:bg-white hover:text-red-500 pl-6 hover:text-lg hover:font-medium hover:border-green-600 pr-6">Play</button>
+            </div>
+        </div>
+        </section>
     
     <script src="Scripts/ludo-demo.js"></script>
     <script src="Scripts/utility.js"></script>
