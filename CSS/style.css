@@ -4,3 +4,7 @@
   font-family: "Roboto Slab", serif;
 }
 
+.bg-cover-img{
+  background-image: url('/Images/Hompage-background.jpg');
+  background-size: cover;
+}
