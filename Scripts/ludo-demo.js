@@ -22,4 +22,9 @@ const playGame = () => {
         const playGround = document.getElementById('play-ground');
         playGround.classList.remove('hidden');
     }, 3000);
-}
+};
+
+const removeIntsruction = () => {
+    const removeIntsruction = document.getElementById('instruction');
+    removeIntsruction.classList.add('hidden');
+};

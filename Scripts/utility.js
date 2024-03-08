@@ -7,9 +7,14 @@ const imgArr = [
     '6 star.png',
 ];
 
-const randomPhoto = () => {
-    const random = Math.ceil(Math.random() * imgArr.length);
-    console.log(random);
-};
+const playBtna = () => {
+    removeIntsruction();
 
-randomPhoto();
+    const random = Math.floor(Math.random() * imgArr.length);
+    console.log(random);
+
+    const randomImg = imgArr[random];
+
+    const starImg = document.getElementById('star-img');
+    starImg.src = `./Images/${randomImg}`;
+};
